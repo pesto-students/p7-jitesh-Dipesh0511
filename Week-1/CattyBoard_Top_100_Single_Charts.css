@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.box{
+    display: flex;
+}
+.player{
+    background-color: grey;
+    display:flex;
+    height: 50vh;
+    width:100%;
+    position: relative;
+    top: 0vh;
+    
+    }
+.song_icon{
+    margin-left: 2vw;
+    margin-top: 4vh;   
+}
+.song{
+    display: flex;
+    flex-direction: column;
+    
+}
+.song_name{
+    position: relative;
+    top: 10vh;
+    left: 3vw;
+    color: white;
+    font-size: larger;
+    position: relative;
+    width:100%;
+    height: 9vh;
+}
+.Details{
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    height: 9vh;
+    position: relative;
+    top: 5vh;
+    left: 3vw;
+}
+.Options{
+    position: relative;
+    top: 16vh;
+    align-content: space-between;
+   }
+.icon{
+    
+    width: 3vh;
+    height: 3vh;
+    padding-top: 5.5vh;
+}
+.icons{
+    padding-right: 2vw;
+    width: 5vh;
+    height: 5vh;
+    
+}
+.left_options{
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+    background-color: grey;
+    flex-direction: column;
+    position: relative;
+        top: 0vh;
+    }
+
+.songs_list{
+    flex-direction: column;
+justify-content: space-between;
+margin-top: -32vh;
+width: 98%;
+position: relative;
+    }
+.songs_name{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 8vh;   
+    
+}
+.details{
+    padding-left: 10vw;
+    width: 10vw;
+    text-align: left;
+}
+p{
+    width: 51vw;
+    display: inline;
+}
+.songs_name2{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 8vh;   
+}
+.bottom_player{
+    position: sticky;
+    display: flex;
+    background-color: blueviolet;
+}
+.bottom_icon{
+    
+    width: 3vh;
+    height: 3vh;
+    padding-top: 2.5vh;
+    margin-left: 10vw;
+    justify-items: center;
+    justify-content: space-around;
+}
+.name{
+        width: 25vw;
+        display: inline;
+    
+}
+footer{
+    position: sticky;
+}
