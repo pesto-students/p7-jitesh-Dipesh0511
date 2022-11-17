@@ -1,0 +1,38 @@
+main{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.layer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width:10vw;
+    height:10vw;
+    background-color: red;
+}
+.box2{
+    width:10vw;
+    height:10vw;
+    background-color: yellow;
+}
+.layer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width:10vw;
+    height:10vw;
+    background-color: blue;
+}
+.box4{
+    width:10vw;
+    height:10vw;
+    background-color: green;
+}   
+main:hover{
+ transform: rotate(90deg);
+}
