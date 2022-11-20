@@ -1,0 +1,85 @@
+main{
+    height: 85vh;
+    
+    }
+h1{
+    position: relative;
+    top: 13vw;
+    left: 47vw;
+    z-index: -1;
+}
+.layer1{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: red;
+    width: 10vw;
+    height: 10vw;
+    transition: transform 5s ease-in-out  forwards;
+    transform-style:preserve-3d;
+    }
+.box2{
+    background-color: yellow;
+    width: 10vw;
+    height: 10vw;
+    transition: transform 5s ease-in-out  forwards;
+    transform-style:preserve-3d;
+}
+.layer2{
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    background-color: blue;
+    width: 10vw;
+    height: 10vw;
+    transition: transform 5s ease-in-out  forwards;
+    transform-style:preserve-3d;
+}
+.box4{
+    background-color: green;
+    width: 10vw;
+    height: 10vw;
+    transition: transform 5s ease-in-out  forwards;
+    transform-style:preserve-3d;
+}
+main:hover .box1{
+    transform-origin: top left;
+    transform: rotate(90deg);
+}
+main:hover .box2{
+    transform-origin: top right;
+    transform: rotate(-90deg);
+}
+main:hover .box3{
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+}
+main:hover .box4{
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+}
+/* @keyframes move1 {
+    to{
+        transform-origin: top left;
+        transform: rotate(90deg);
+    }
+}
+@keyframes move2 {
+    to{
+        transform-origin: top right;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes move3 {
+    to{
+        transform-origin: bottom left;
+        transform: rotate(-90deg);
+    }
+}@keyframes move4 {
+    to{
+        transform-origin: bottom right;
+        transform: rotate(90deg);
+    }
+} */
