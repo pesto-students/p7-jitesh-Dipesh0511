@@ -16,13 +16,12 @@ h1{
     background-color: red;
     width: 10vw;
     height: 10vw;
-    animation: move1 5s ease-in-out  forwards;
+    
     }
 .box2{
     background-color: yellow;
     width: 10vw;
     height: 10vw;
-    animation: move2 5s ease-in-out  forwards;
 }
 .layer2{
     display: flex;
@@ -32,13 +31,11 @@ h1{
     background-color: blue;
     width: 10vw;
     height: 10vw;
-    animation: move3 5s ease-in-out  forwards;
 }
 .box4{
     background-color: green;
     width: 10vw;
     height: 10vw;
-    animation: move4 5s ease-in-out  forwards;
 }
 @keyframes move1 {
     to{
@@ -62,4 +59,16 @@ h1{
         transform-origin: bottom right;
         transform: rotate(90deg);
     }
+}
+main:hover .box1{
+    animation: move1 5s ease-in-out  forwards;
+}
+main:hover .box2{
+    animation: move2 5s ease-in-out  forwards;
+}
+main:hover .box3{
+    animation: move3 5s ease-in-out  forwards;
+}
+main:hover .box4{
+    animation: move4 5s ease-in-out  forwards;
 }
