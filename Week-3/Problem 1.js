@@ -1,7 +1,7 @@
 // Memoize Function for addition of two Numbers
-var value=[];
+let value=[];
 function add(value=[]){
-    var sum=0;
+    let sum=0;
     for(i =0;i<value.length;i++){
         sum+=value[i];
     }
