@@ -2,7 +2,7 @@
 let value=[];
 function add(value=[]){
     let sum=0;
-    for(i =0;i<value.length;i++){
+    for(let i =0;i<value.length;i++){
         sum+=value[i];
     }
     console.log(`Sum of both numbers is ` + sum);
