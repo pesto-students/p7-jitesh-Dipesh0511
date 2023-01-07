@@ -1,0 +1,14 @@
+{
+    "name": "dipesh",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Problem-1_Async,Await,Generator.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.3.1"
+    }
+}
