@@ -1,0 +1,27 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Heading {
+    height: 10vh;
+    width: 10em;
+}
+
+nav {
+    display: inline-flex;
+    align-self: center;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+}
+
+nav.li {
+    display: inline-flex;
+    width: 200vh;
+    justify-content: space-around;
+}
+
+.p {
+    margin-left: 10vh;
+}
