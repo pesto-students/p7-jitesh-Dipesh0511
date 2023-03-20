@@ -55,12 +55,21 @@ getRootNode()
       depth++;
       return Math.max(this.maxdepth(root.left,depth),this.maxdepth(root.right,depth),depth)
     }
+<<<<<<< HEAD
   }	
 
 // create an object for the BinaryTree
 var BST = new binarytree();
 
 // Inserting nodes to the BinaryTree
+=======
+  }
+
+// create an object for the BinarySearchTree
+var BST = new binarytree();
+
+// Inserting nodes to the BinarySearchTree
+>>>>>>> 6c20a1b813fceba82e0455ca800675eff757f91d
 BST.insert(15);
 BST.insert(25);
 BST.insert(10);
@@ -71,11 +80,24 @@ BST.insert(13);
 BST.insert(5);
 BST.insert(9);
 BST.insert(27);
+<<<<<<< HEAD
+=======
+//		 15
+//		 / \
+//	 10 25
+//	 / \ / \
+//	 7 13 22 27
+//	 / \ /
+// 5 9 17
+>>>>>>> 6c20a1b813fceba82e0455ca800675eff757f91d
 
 var root = BST.getRootNode();
 BST.preorder(root);
 console.log(`Max depth is ${BST.maxdepth(root,0)}`)
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6c20a1b813fceba82e0455ca800675eff757f91d
